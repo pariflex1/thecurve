@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Team &#8211; The Curve Consultant</title>
+	<atom:link href="https://thecurveconsultants.com/category/team/feed/" rel="self" type="application/rss+xml" />
+	<link>https://thecurveconsultants.com/</link>
+	<description>Best Project Management Consultants in India</description>
+	<lastBuildDate>Fri, 09 Aug 2024 04:00:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+
+<image>
+	<url>https://thecurveconsultants.com/wp-content/uploads/2024/09/The-Curve-Logo-150x150.jpg</url>
+	<title>Team &#8211; The Curve Consultant</title>
+	<link>https://thecurveconsultants.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Akhlesh Kumar</title>
+		<link>https://thecurveconsultants.com/akhlesh-kumar/</link>
+					<comments>https://thecurveconsultants.com/akhlesh-kumar/#respond</comments>
+		
+		<dc:creator><![CDATA[user]]></dc:creator>
+		<pubDate>Fri, 09 Aug 2024 03:17:03 +0000</pubDate>
+				<category><![CDATA[Team]]></category>
+		<guid isPermaLink="false">https://thecurveconsultants.com/?p=1026</guid>
+
+					<description><![CDATA[Project Manager]]></description>
+										<content:encoded><![CDATA[
+<p>Project Manager</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://thecurveconsultants.com/akhlesh-kumar/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Durg Pal</title>
+		<link>https://thecurveconsultants.com/durg-pal/</link>
+					<comments>https://thecurveconsultants.com/durg-pal/#respond</comments>
+		
+		<dc:creator><![CDATA[user]]></dc:creator>
+		<pubDate>Fri, 09 Aug 2024 03:16:36 +0000</pubDate>
+				<category><![CDATA[Team]]></category>
+		<guid isPermaLink="false">https://thecurveconsultants.com/?p=1023</guid>
+
+					<description><![CDATA[Project Manager]]></description>
+										<content:encoded><![CDATA[
+<p>Project Manager</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://thecurveconsultants.com/durg-pal/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Vinod Singh</title>
+		<link>https://thecurveconsultants.com/vinod-singh/</link>
+					<comments>https://thecurveconsultants.com/vinod-singh/#respond</comments>
+		
+		<dc:creator><![CDATA[user]]></dc:creator>
+		<pubDate>Fri, 09 Aug 2024 03:16:16 +0000</pubDate>
+				<category><![CDATA[Team]]></category>
+		<guid isPermaLink="false">https://thecurveconsultants.com/?p=1021</guid>
+
+					<description><![CDATA[Vice President]]></description>
+										<content:encoded><![CDATA[
+<p>Vice President</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://thecurveconsultants.com/vinod-singh/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kanta Prasad</title>
+		<link>https://thecurveconsultants.com/kanta-prasad/</link>
+					<comments>https://thecurveconsultants.com/kanta-prasad/#respond</comments>
+		
+		<dc:creator><![CDATA[user]]></dc:creator>
+		<pubDate>Fri, 09 Aug 2024 03:14:07 +0000</pubDate>
+				<category><![CDATA[Team]]></category>
+		<guid isPermaLink="false">https://thecurveconsultants.com/?p=1017</guid>
+
+					<description><![CDATA[CEO]]></description>
+										<content:encoded><![CDATA[
+<p>CEO</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://thecurveconsultants.com/kanta-prasad/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
