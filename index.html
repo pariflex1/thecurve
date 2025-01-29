@@ -1039,9 +1039,14 @@ transform: translateY(-50px); /*adjust this value to the height of your header*/
 		<div class="elementor-element elementor-element-fd1817b e-con-full e-flex e-con e-child" data-id="fd1817b" data-element_type="container">
 				<div class="elementor-element elementor-element-3873ae7 elementor-widget elementor-widget-heading" data-id="3873ae7" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">© 2024 The Curve Consultants | All rights reserved</h2>		</div>
+					<h3 class="elementor-heading-title elementor-size-default">Copyright © <span id="currentYear"></span> The Curve Consultants</h3>		</div>
 				</div>
-				</div>
+						<script>
+document.addEventListener('DOMContentLoaded', function() {
+ var currentYear = new Date().getFullYear();
+ document.getElementById('currentYear').textContent = currentYear;
+});
+</script>
 		<div class="elementor-element elementor-element-6a73156 e-con-full e-flex e-con e-child" data-id="6a73156" data-element_type="container">
 				<div class="elementor-element elementor-element-c299cad elementor-widget elementor-widget-heading" data-id="c299cad" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
