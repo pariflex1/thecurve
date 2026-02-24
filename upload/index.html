@@ -151,33 +151,35 @@
   </label>
   <input type="file" id="imageInput" accept="image/*,.heic,.heif,.HEIC,.HEIF" hidden>
 
-  <div class="input-group">
-    <label>Post Title</label>
-    <input type="text" id="postTitle" class="input-field" placeholder="Enter title...">
-  </div>
+<input type="hidden" id="website" name="website" value="The Curve">
 
-  <div class="input-group">
-    <label>Description</label>
-    <textarea id="postDesc" class="input-field" rows="3" placeholder="Write something..."></textarea>
-  </div>
+<div class="input-group">
+  <label>Post Title</label>
+  <input type="text" id="postTitle" class="input-field" placeholder="Enter title...">
+</div>
 
-   <div class="platforms">
-    <div class="btn" data-val="Facebook">Facebook</div>
-    <div class="btn" data-val="Instagram">Instagram</div>
-    <div class="btn" data-val="Google Business">Google</div>
-    <div class="btn" data-val="Linkedin">Linkedin</div>
-  </div>
+<div class="input-group">
+  <label>Description</label>
+  <textarea id="postDesc" class="input-field" rows="3" placeholder="Write something..."></textarea>
+</div>
 
-  <button class="submit" id="sendBtn">
-    <div class="spinner" id="spinner"></div>
-    <span id="btnText">Publish</span>
-  </button>
+<div class="platforms">
+  <div class="btn" data-val="Facebook">Facebook</div>
+  <div class="btn" data-val="Instagram">Instagram</div>
+  <div class="btn" data-val="Google Business">Google</div>
+  <div class="btn" data-val="Linkedin">Linkedin</div>
+</div>
+
+<button class="submit" id="sendBtn">
+  <div class="spinner" id="spinner"></div>
+  <span id="btnText">Publish</span>
+</button>
 
   <div class="success" id="successMsg">✔ Published successfully</div>
 </div>
 
 <script>
-const WEBHOOK = "https://n8n.jhansiproperty.com/webhook/thecurve";
+const WEBHOOK = "https://n8n.jhansiproperty.com/webhook-test/thecurve";
 const CORRECT_PIN = "4444";
 
 const loginScreen = document.getElementById("loginScreen");
@@ -280,11 +282,14 @@ btn.onclick = async () => {
   btn.disabled          = true;
 
   // ── KEY CHANGE: use FormData so n8n receives a real binary file ──
-  const formData = new FormData();
-  formData.append("title", title);
-  formData.append("description", desc);
-  formData.append("platforms", JSON.stringify(selectedPlatforms));
-  formData.append("image", imageBlob, "image.jpg");   // ← binary field
+  const website = document.getElementById("website").value;
+
+const formData = new FormData();
+formData.append("title", title);
+formData.append("description", desc);
+formData.append("platforms", JSON.stringify(selectedPlatforms));
+formData.append("website", website);   // ✅ hidden field sent
+formData.append("image", imageBlob, "image.jpg");
 
   try {
     await fetch(WEBHOOK, {
